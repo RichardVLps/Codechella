@@ -1,0 +1,36 @@
+footer {
+    background: var(--purple);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+}
+
+.footer__content, .social {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.footer__text {
+    text-align: center;
+    margin: 0 2rem;
+    line-height: 3.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .social {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    footer {
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10rem;
+    }
+}
