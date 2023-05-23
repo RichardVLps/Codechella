@@ -1,0 +1,81 @@
+.home__exp {
+    background: url('/src/img/experiencia/banner_exp.svg') center / cover no-repeat;
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 3.2rem 2.4rem;
+}
+
+.presentation__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.acessibilidade__img {
+    border-radius: 16px;
+    height: 381px;
+    width: 100%;
+}
+
+.Acessibilidade {
+    background: url('/src/img/experiencia/exp_1.svg') center / cover no-repeat; 
+}
+
+.Sustentabilidade {
+    background: url('/src/img/experiencia/exp_2.svg') center / cover no-repeat; 
+}
+
+.Atrações {
+    background: url('/src/img/experiencia/exp_3.svg') center / cover no-repeat; 
+}
+
+.presentation__content:nth-child(n+2) {
+    margin-top: 6.4rem;
+}
+
+.event__text {
+    padding: 0;
+}
+
+@media screen and (min-width:768px) {
+    main {
+        margin: 3.2rem 6rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+
+    .home__exp {
+        height: 30vh;
+    }
+
+    main {
+        margin: 6.4rem 12.15rem;
+    }
+
+    .presentation__content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .presentation__content:nth-of-type(2) {
+        flex-direction: row-reverse;
+
+    }
+
+    .event__title, .event__text {
+        text-align: left;
+        width: 609px;
+    }
+
+    .event__text {
+        margin-top: 2.4rem;
+    }
+}

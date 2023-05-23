@@ -1,5 +1,5 @@
 .home {
-    background: url('../img/Banner.svg') center / cover no-repeat;
+    background: url('../img/home/Banner.svg') center / cover no-repeat;
     height: 50vh;
     width: 100vw;
     display: flex;
@@ -67,7 +67,7 @@
 }
 
 .homepage {
-    background: url('../img/Homepage2.svg') center / cover no-repeat;
+    background: url('../img/home/Homepage2.svg') center / cover no-repeat;
     height: 338px;
     width: 100%;
 }
