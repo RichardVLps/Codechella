@@ -11,15 +11,18 @@ header {
     display: flex;
     flex-direction: column;
     position: fixed;
+    top: 128px;
     right: -100%;
-    top: 124px;
+    top: 128px;
     text-align: center;
     transition: .3s;
     padding: 0 1rem 1rem 1rem;
 }
 
-.active {
+.active.menu__list {
     right: 0;
+    position: absolute;
+    z-index: 1;
 }
 
 .menu__link {

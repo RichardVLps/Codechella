@@ -1,0 +1,56 @@
+.map {  
+    display: flex;
+    justify-content: center;
+}
+
+.map__img {
+    width: 75%;
+}
+
+.legend {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    padding: 0 7rem;
+}
+
+.legend__title {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.track__content {
+    align-items: center;
+    display: flex;
+    gap: 1.6rem;
+    width: 100%;
+}
+
+.track__color {
+    height: 32px;
+    width: 32px;
+}
+
+.premium {
+    background-color: #0E7DF1;
+}
+
+.comum {
+    background-color: #FE016E; 
+}
+
+.terreo {
+    background-color: #01A89E;
+}
+
+.superiores {
+    background-color: #3F51B5;
+}
+
+.rampas {
+    background-color: #0E7DF1;
+}
+
+.track__description {
+    font-size: 2rem;
+}

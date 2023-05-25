@@ -23,6 +23,15 @@ body {
     font-family: var(--Raleway);
     font-size: 1.6rem;
     margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.home {
+    height: 36.5vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .line {

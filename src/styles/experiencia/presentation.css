@@ -1,10 +1,5 @@
-.home__exp {
+.home {
     background: url('/src/img/experiencia/banner_exp.svg') center / cover no-repeat;
-    height: 50vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 main {

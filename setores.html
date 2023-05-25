@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="./src/styles/style.css">
     <link rel="stylesheet" href="./src/styles/header.css">
     <link rel="stylesheet" href="./src/styles/footer.css">
+    <link rel="stylesheet" href="./src/styles/setores/legend.css">
+    <link rel="stylesheet" href="./src/styles/setores/setor.css">
+    <link rel="stylesheet" href="./src/styles/setores/details.css">
 </head>
 <body>
     <header>
@@ -26,7 +29,62 @@
             </div>
         </nav>
     </header>
-    <main></main>
+    <main>
+        <div class="home">
+            <h1 class="home__title">Mapa de Setores</h1>
+        </div>
+    </main>
+    <div class="map">
+        <img class="map__img" src="./src/img/setores/setor_map.svg" alt="mapa do setor">
+    </div>
+    <div class="legend">
+
+        <p class="legend__title">Legenda:</p>
+
+        <div class="track__content">
+
+            <div class="track__color premium"></div>
+            <p class="track__description">Pista Premium</p>
+
+        </div>
+
+        <div class="track__content">
+
+            <div class="track__color comum"></div>
+            <p class="track__description">Pista Comum</p>
+
+        </div>
+
+        <div class="track__content">
+
+            <div class="track__color terreo"></div>
+            <p class="track__description">Pista Térreo</p>
+
+        </div>
+
+        <div class="track__content">
+
+            <div class="track__color superiores"></div>
+            <p class="track__description">Pista Superiores</p>
+
+        </div>
+
+        <div class="track__content">
+
+            <div class="track__color rampas"></div>
+            <p class="track__description">Pista Rampas</p>
+            
+        </div>
+    </div>
+    <div class="details">
+        <h3 class="details__title">Mais detalhes sobre os setores:</h3>
+        <div class="details__img comum"></div>
+        <h3 class="details__title">Pista</h3>
+        <p class="details__text">Pista convencional, atendida pelos bares e banheiros das laterais do estádio. Espaço amplo, com local para sentar e descansar. Separada da pista premium por uma grade.</p>
+        <div class="details__img premium"></div>
+        <h3 class="details__title">Cadeiras</h3>
+        <p class="details__text">Opção de cadeiras térreas ou elevadas. Acesso próximo a banheiros e bares, visão um pouco elevada em relação às pistas.</p>
+    </div>
     <footer>
         <div class="footer__content">
             <img class="logo" src="./src/img/Logo.svg" alt="Codechella">
