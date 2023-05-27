@@ -3,10 +3,6 @@
     justify-content: center;
 }
 
-.map__img {
-    width: 75%;
-}
-
 .legend {
     display: flex;
     flex-direction: column;
@@ -14,16 +10,21 @@
     padding: 0 7rem;
 }
 
+.legend__title--container {
+    width: 100%;
+}
+
 .legend__title {
     font-weight: 700;
     font-size: 2rem;
+    margin-bottom: 3.2rem;
 }
 
 .track__content {
     align-items: center;
     display: flex;
     gap: 1.6rem;
-    width: 100%;
+    margin-bottom: 2.8rem;
 }
 
 .track__color {
@@ -53,4 +54,25 @@
 
 .track__description {
     font-size: 2rem;
+}
+
+@media screen and (min-width:768px) {
+
+    .legend {
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .location {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin: 3.2rem 12rem;
+    }
+
+    .map__img {
+        height: 690px;
+        width: 609px;
+    }
 }

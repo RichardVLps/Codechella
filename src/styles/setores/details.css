@@ -7,9 +7,10 @@
 }
 
 .details__img {
-    width: 100%;
+    border-radius: 16px;
     height: 239px;
     margin: 3rem 0;
+    width: 312px;
 }
 
 .details__img.comum {
@@ -30,4 +31,10 @@
     font-weight: 500;
     font-size: 2rem;
     line-height: 4rem;
+}
+
+@media screen and (min-width:768px) {
+    .details {
+        margin: 3.2rem 6rem;
+    }
 }

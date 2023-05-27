@@ -61,6 +61,10 @@
     cursor: pointer;
 }
 
+.event__btn:hover {
+    background-color: var(--purple_hover);
+}
+
 .homepage {
     background: url('../img/home/Homepage2.svg') center / cover no-repeat;
     height: 338px;

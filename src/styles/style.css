@@ -12,6 +12,7 @@
 :root {
     --boreal: linear-gradient(180deg, #304968 0%, #36C1A0 52.6%, #4650BD 100%);
     --purple: #4650BD;
+    --purple_hover: #606ADA;
     --green: #008364; 
     --Calistoga: 'Calistoga', cursive;
     --Raleway: 'Raleway', sans-serif;

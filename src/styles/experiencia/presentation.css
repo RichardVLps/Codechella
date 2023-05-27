@@ -45,7 +45,7 @@ main {
     }
 }
 
-@media screen and (min-width:1440px) {
+@media screen and (min-width:1366px) {
 
     .home__exp {
         height: 30vh;
