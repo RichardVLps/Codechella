@@ -1,15 +1,23 @@
 .details {
     display: flex;
     flex-direction: column;
-    align-items: center;
     text-align: center;
+    justify-content: center;
     margin: 3.2rem 2.4rem;
+    gap: 3rem;
+}
+
+.details__content {
+    align-items: center;  
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+    max-width: 383px;
 }
 
 .details__img {
     border-radius: 16px;
     height: 239px;
-    margin: 3rem 0;
     width: 312px;
 }
 
@@ -21,10 +29,16 @@
     background: url('/src/img/setores/setor_pista-premium.svg') center / cover no-repeat;
 }
 
+.details__img.cadeiras {
+    background: url('/src/img/setores/cadeira.svg') center / cover no-repeat;
+}
+
 .details__title {
     font-weight: 700;
     font-size: 3.2rem;
     line-height:3.757rem;
+    text-align: center;
+    margin: 0 2.4rem;
 }
 
 .details__text {
@@ -36,5 +50,16 @@
 @media screen and (min-width:768px) {
     .details {
         margin: 3.2rem 6rem;
+    }
+}
+
+@media screen and (min-width:1440px) {
+    .details {
+        flex-direction: row;
+        height: 631px;
+    }
+
+    .details__content:nth-of-type(2) {
+        justify-content: end;
     }
 }
