@@ -11,12 +11,11 @@ header {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 128px;
     right: -100%;
-    top: 128px;
+    top: 15vh;
     text-align: center;
     transition: .3s;
-    padding: 0 1rem 1rem 1rem;
+    padding: 1rem;
 }
 
 .active.menu__list {
@@ -55,10 +54,10 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+
     header {
         flex-direction: column;
         gap: 3rem;
-        padding: 3rem;
     }
 
     .menu {
